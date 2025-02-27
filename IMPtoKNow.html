@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More About HTML</title>
+</head>
+<body>
+    <p>Unordered and Orderd List Respectively Below:</p>
+
+    <ul>
+        <li>Apple</li>
+        <ul>
+            <li>Color : Red</li>
+            <li>Season : Winter</li>
+        </ul>
+        <li>Mango</li>
+        <ul>
+            <li>Color : Yellow</li>
+            <li>Season : Summer</li>
+        </ul>
+    </ul>
+
+    <ol>
+        <li>Lion</li>
+        <ol>
+            <li>Food : Carnivores</li>
+            <li>Type : Wildanimal</li>
+        </ol>
+        <li>Goat</li>
+        <ol>
+            <li>Food : Herbivores</li>
+        <li>Type : Petanimal</li>
+    </ol>
+</ol>
+
+<p>Only in <b>Ordered list</b> we can change them into <b><i>roman using I</i>, <i>abc using a</i> and <i>ABC using A</i></b></p>
+<p>For example:
+   <ol type="I">
+    <li>Hi</li>
+    <li>Hello</li>
+   </ol>
+   <ol type="a">
+    <li>Bye</li>
+    <li>Ciao</li>
+   </ol>
+   <ol type="A">
+    <li>Good</li>
+    <li>Fine</li>
+   </ol>
+</p>
+
+<pre>Lets create a <big>table</big> using tags <b><i>table</i>,<i>tr</i>, <i>th</i> and <i>td</i></b> 
+and also use <b>theader</b>, <b>tbody</b> and may be <b>tfooter :</b></pre>
+
+<table border="2">
+    <theader>
+        <caption>TABLE: Info About Elements</caption>
+        <tr>
+        <th>
+            Tag
+        </th>
+        <th>
+            Type 
+        </th>
+    </tr>
+    </theader>
+    <tbody>
+        <tr>
+            <td>a</td>
+            <td>Inline</td>
+        </tr>
+        <tr>
+            <td>div</td>
+            <td>Bolck</td>
+        </tr>
+        <tr>
+            <td>ul</td>
+            <td>Block</td>
+        </tr>
+        <tr>
+            <td>img</td>
+            <td>Inline</td>
+        </tr>
+    </tbody>
+    <tfooter>
+        <tr>
+            <td colspan="2">These may be sem and non-sem too</td>
+        </tr>
+    </tfooter>
+</table>
+    
+
+<table border="2">
+    <theader>
+        <caption>Rowspan Table</caption>
+        <tr>
+            <th>
+                Grammar
+            </th>
+            <th>
+                Tense
+            </th>
+        </tr>
+    </theader>
+    <tbody>
+        <tr>
+            <td rowspan="3">comprehensive</td>
+            <td>Good</td>
+        </tr>
+        <tr>
+            <td>Better</td>
+        </tr>
+        <tr>
+            <td>Best</td>
+        </tr>
+    </tbody>
+</table>
+
+
+<p>The above used tags are</p>
+<ul>
+    <li>table</li>
+    <li>theader</li>
+    <li>caption</li>
+    <li>th</li>
+    <li>tr</li>
+    <li>tbody</li>
+    <li>td</li>
+    <li>tfooter</li>
+ </ul>
+
+ <p>Attributes used are:</p> 
+ <ul>
+    <li>border="" for table border</li>
+    <li>colspan="" for merging the columns</li>
+<br>
+ <form>
+        <input type="text" placeholder="Enter your name">
+        <input type="password" placeholder="Password Please">
+        <input type="text" minlength="4" placeholder="write your messsage">
+        <input type="text" size="4" placeholder="Secret key">
+        <input type="email" placeholder="Enter your email">
+        <input type="checkbox">
+        <input type="color">
+        <input type="file">
+        <input type="number" placeholder="enter your age"> <br>
+        <input type="image" src="/image.png" height="69">
+        </form>
+
+        <br><br>
+        Above were some FORM Elements
+       <p> Lets fill the form:</p>
+       
+
+        <table border="1">
+            <tr> <td>
+                <h3>Registration Form</h3>
+        <form action="/action.php">
+            <input type="text" placeholder="Your name please">  <br>
+            <input type="password" size="8" placeholder="Passowrd"> 
+                        <h4>Pick one compulsory language</h4>
+            <label for="english">
+                <input type="radio" value="English" name="Language" id="english">English
+             </label>
+            <label for="french">
+                <input type="radio" value="French" name="Language" id="french">French
+            </label>
+            <label for="spanish">
+                <input type="radio" value="Spanish" name="Language" id="spanish">Spanish
+            </label>  
+            <h4>Select your favorite subjects</h4> 
+            <label for="Maths">
+                <input type="checkbox" value="Maths" name="subject" id="Maths">Maths
+             </label>
+            <label for="Physics">
+                <input type="checkbox" value="Physics" name="subject" id="Physics">Physics
+            </label>
+            <label for="Chemistry">
+                <input type="checkbox" value="Chemistry" name="subject" id="Chemistry">Chemistry
+            </label> <br>           
+            Select your city
+            <select name="city">
+                <option value="Banglore">Banglore</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Pune">Pune</option>
+                <option value="Amhedbad">Amhedbad</option>
+            </select> <br>
+            <textarea name="feedback" id="101" placeholder="Give feedback" rows="4"></textarea> <br>
+            <input type="submit" value="submit">
+        </form>
+        </td>
+    </tr>
+    </table>
+
+
+    
+        
+
+    
+</body>
+</html>
